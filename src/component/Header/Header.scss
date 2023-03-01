@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'satisfy', cursive;
+    src: url(../../font/Satisfy/Satisfy-Regular.ttf);
+  }
+
+header {
+    ul {
+      display: flex;
+      li {
+        font-family: 'satisfy', cursive;
+        font-size: 150%;
+        list-style: none;
+        padding-left: 1em;
+        padding-right: 3em;
+      }
+    }
+}

@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Gloria Hallelujah';
+  src: url(../src/font/Gloria_Hallelujah/GloriaHallelujah-Regular.ttf);
+
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom right, antiquewhite, #e9c480);
+}
+
+.users {
+  margin-left: 45%;
+  margin-right: 45%;
+  border: none;
+  width: 100px;
+  height: 50px;
+  font-family: 'Gloria Hallelujah';
+  font-size: 1em;
+  font-weight: bold;
+  background: url('../public/Sword.png') no-repeat;
+  background-size: contain;
+  // background-size: 50px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 98%;
+  max-height: 22em;
+  overflow: hidden;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  .card-body {
+    margin-top: 1%;
+    width: 30%;
+    // border: 10px ridge #997F66;
+    // box-shadow: -15px 15px 15px  #A88DD0;
+    background: url(../public/parchBig.png) no-repeat;
+    background-size: contain;
+    height: 20em;
+    @media only screen and (max-width: 600px) { 
+      background: url(../public/parchSmol.png);
+      background-size: contain;
+    }
+    h2 {
+      font-size: 2em;
+      text-align: center;
+      color: #3e2b0f;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      font-family: cursive;
+    }
+    h3 {
+      font-family: 'Gloria Hallelujah';
+    }
+    .delete {
+      margin-top: 3%;
+      margin-left: 40%;
+      margin-right: 40%;
+      border: none;
+      width: 100px;
+      height: 50px;
+      font-family: 'Gloria Hallelujah';
+      font-size: 1em;
+      font-weight: bold;
+      background: url('../public/Sword.png') no-repeat;
+      background-size: contain;
+
+    }   
+  }
+}
+  
